@@ -1,0 +1,48 @@
+SISTEMAS DE REDES DISTRIBUIDOS  AULA 2
+
+CONTEXTUALIZAÇÃO 
+
+- REDES E SUB-REDES
+- ETHERNET
+-IPV4 E IPV6
+
+
+PROTOCOLO IPV4
+RESPONSAVEL PARA DAR ENDEREÇO PARA CADA UMA  DAS MAQUINAS
+PERMITE COMUNICAÇÃO COM CADA DISPOSITIVO - ENVIAR OU RECEBER
+
+INTERNET PROTOCOL 
+ENDERECO LOGICO 
+RESPONSAVEL PARA QUE UM DISPOSITIVO SE COMUNIQUE COM OUTRO DE FORMA IDEPENDENTE
+POSSUI 32 BITS 192.168.1.1 (8.8.8.8)
+
+ETHERNET
+CLASSICA :
+FAST INTERNET 100MBIT/S
+GIGABIT ETHERNET 1GB/S
+
+
+COMUTADA: 
+UTILIZAMOS HOJE
+MECANISMOS PARA NAO TER COLIZAO ENTRE OS PACOTES
+
+METODOS TRANSMISSAO ETHERNET
+SAO EFETUADAS PELO PROTOCOLO CSMA/CD (CARRIER SENSE MULTIPLE ACCESS)
+
+CSMA não persistente : se o meio estiver ocupado, o dispostivo espera um tempo aleatório
+CSMA 1 persistente : dispostivo 'escuta' a rede até o que o meio fique livre
+CSMA p-persistente : calcula a probabilidade de colisão
+
+DOMINIO DE BRODCAST 
+
+Determina o limite que o pacote pode chegar
+um dispostivo local em uma rede capaz de efetuar a comunicao com outro atravez de um roteador
+
+IPV6 
+
+nova versao do ipv4
+época de transição (mtos dispositivos antigos usam ipv4)
+ipv6 inicio 1990
+ipv6 possui 128bits (ipv4 32btis)
+ipv6 é fixo (ipv4 não)
+represetados por numeros hexadecimal ( A - E , 0 - 9)
